@@ -1,11 +1,14 @@
 /*
 Daily exercise program; according to the day of the week it displays the corresponding exercise
 */
+$(document).ready(function(){
+  $("#").click(function(){
+  });
+});
 
 function displayVals() {
     var dayValues = $("#days").val();
-    //function exerciseSchedule(singleValues) {
-    //use an if statement to test for the day of the week
+
     if(dayValues == "Monday") {
       $( "p" ).html(exercisesArray[0] + "<br>"); //display the corresponding exercise string
     } else if(dayValues == "Tuesday") {
