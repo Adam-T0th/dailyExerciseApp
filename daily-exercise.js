@@ -16,6 +16,8 @@ function displayVals() {
       $( "p" ).html(exercisesArray[3]);
     } else if(dayValues == "Friday") {
       $( "p" ).html(exercisesArray[4]);
+    } else if(dayValues == "") {
+      $( "p" ).html("<p>What day of the week is it?</p>");
     }
 }
 
