@@ -16,10 +16,27 @@ Daily exercise program; according to the day of the week it displays the corresp
 */
 
 function displayVals() {
-  var singleValues = $( "#days" ).val();
-  // When using jQuery 3:
-  // var multipleValues = $( "#multiple" ).val();
-  $( "p" ).html( "<b>Today is:</b> " + singleValues);
+    var singleValues = $( "#days" ).val();
+    //function exerciseSchedule(singleValues) {
+    //use an if statement to test for the day of the week
+    if(singleValues == "Monday") {
+      $( "p" ).html(exercisesArray[0] + "<br>"); //display the corresponding exercise string
+    } else if(singleValues == "Tuesday") {
+      $( "p" ).html(exercisesArray[1]);
+    } else if(singleValues == "Wednesday") {
+      $( "p" ).html(exercisesArray[2]);
+    } else if(singleValues == "Thursday") {
+      $( "p" ).html(exercisesArray[3]);
+    } else if(singleValues == "Friday") {
+      $( "p" ).html(exercisesArray[4]);
+    }
+    // in case it gets changed from an option to an input form style
+    // else {
+    //   $( "p" ).html("Take a day off, mate. You've earned it.");
+    //
+    // }
+  //}
+  // $( "p" ).html( "<b>Today is:</b> " + exercisesArray[]);
 }
 
 $( "select" ).change( displayVals );
@@ -33,24 +50,15 @@ var exercisesArray = ["Today is leg day.", "Today is abs.", "Today is arms.", "T
 //   if(inputValue == "Monday") {
 //     console.log(inputValue[0]); //display the corresponding exercise string
 //   } else if(inputValue == "Tuesday") {
-//     console.log(exercisesArray[1]); //display the corresponding exercise string
+//     console.log(exercisesArray[1]);
 //   } else if(inputValue == "Wednesday") {
-//     console.log(exercisesArray[2]); //display the corresponding exercise string
+//     console.log(exercisesArray[2]);
 //   } else if(inputValue == "Thursday") {
-//     console.log(exercisesArray[3]); //display the corresponding exercise string
+//     console.log(exercisesArray[3]);
 //   } else if(inputValue == "Friday") {
-//     console.log(exercisesArray[4]); //display the corresponding exercise string
+//     console.log(exercisesArray[4]);
 //   } else {
 //     console.log("Take a day off, mate. You've earned it.");
 //   }
 // }
-// $(document).ready(function(){
-//   $("select").click(function(){
-//     $("p").html("Hello <b>world!</b>");
-//   });
-// }); //working through localHost, when cross-origin isn't checked
-
-
-
-//document.getElementById("paragraph").innerHTML=getHtml();
 //exerciseSchedule(inputValue);
