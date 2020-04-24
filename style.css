@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.col-75 {
+  text-align: center;
+}
+
 h2, p {
   font-family: 'Righteous', cursive;
   color: grey;

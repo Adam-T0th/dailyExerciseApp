@@ -3,7 +3,7 @@ Daily exercise program; according to the day of the week it displays the corresp
 */
 
 function displayVals() {
-    var dayValues = $( "#days" ).val();
+    var dayValues = $("#days").val();
     //function exerciseSchedule(singleValues) {
     //use an if statement to test for the day of the week
     if(dayValues == "Monday") {
@@ -17,7 +17,7 @@ function displayVals() {
     } else if(dayValues == "Friday") {
       $( "p" ).html(exercisesArray[4]);
     } else if(dayValues == "") {
-      $( "p" ).html("<p>What day of the week is it?</p>");
+      $( "p" ).html("<p>What day of the week is it?</p>"); //default behavior; not working yet
     }
 }
 
