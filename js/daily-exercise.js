@@ -19,9 +19,10 @@ function displayVals() {
     } else if(dayValues == "") {
       $( "p" ).html("<p>What day of the week is it?</p>"); //default behavior; not working yet
     }
+    $( "select" ).change( displayVals );
 }
 
-$( "select" ).change( displayVals );
+
 displayVals();
 
 //store each exercise in a string variable
