@@ -10,7 +10,7 @@ function displayVals() {
       $("h2").css("color", "white");
       $("p").css("color", "white");
       $("body").css({
-        "background-image": "url('img/man-exercising-leg.jpg')",
+        "background-image": "url('img/man-exercising-leg.JPG')",
         "background-repeat": "no-repeat",
         "background-attachment": "fixed",
         "background-position": "center",
@@ -21,7 +21,7 @@ function displayVals() {
       $("h2").css("color", "white");
       $("p").css("color", "white");
       $("body").css({
-        "background-image": "url('img/man-doing-abs.jpg')",
+        "background-image": "url('img/man-doing-abs.JPG')",
         "background-repeat": "no-repeat",
         "background-attachment": "fixed",
         "background-position": "center",
@@ -32,7 +32,7 @@ function displayVals() {
       $("h2").css("color", "white");
       $("p").css("color", "white");
       $("body").css({
-        "background-image": "url('img/man-doing-arms.jpg')",
+        "background-image": "url('img/man-doing-arms.JPG')",
         "background-repeat": "no-repeat",
         "background-attachment": "fixed",
         "background-position": "center",
@@ -43,7 +43,7 @@ function displayVals() {
       $("h2").css("color", "white");
       $("p").css("color", "white");
       $("body").css({
-        "background-image": "url('img/bird-dog-exercise.jpg')",
+        "background-image": "url('img/bird-dog-exercise.JPG')",
         "background-repeat": "no-repeat",
         "background-attachment": "fixed",
         "background-position": "center",
@@ -54,7 +54,7 @@ function displayVals() {
       $("h2").css("color", "white");
       $("p").css("color", "white");
       $("body").css({
-        "background-image": "url('img/bench-press.jpg')",
+        "background-image": "url('img/bench-press.JPG')",
         "background-repeat": "no-repeat",
         "background-attachment": "fixed",
         "background-position": "center",
