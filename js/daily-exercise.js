@@ -6,7 +6,8 @@ function displayVals() {
     var dayValues = $("#days").val();
 
     if(dayValues == "Monday") {
-      $( "p" ).html(exercisesArray[0] + "<br>"); //display the corresponding exercise string
+      $( "p" ).html("<h2>" + exercisesArray[0] + "</h2>"+ "<br>"); //display the corresponding exercise string
+      $("#request-header").remove();
       $("h2").css("color", "white");
       $("p").css("color", "white");
       $("body").css({
