@@ -7,9 +7,9 @@ function displayVals() {
 
     if(dayValues == "Monday") {
       $( "p" ).html("<h2>" + exercisesArray[0] + "</h2>"+ "<br>"); //display the corresponding exercise string
-      $("#request-header").remove();
-      $("h2").css("color", "white");
-      $("p").css("color", "white");
+      $("#request-header").remove(); //remove the "Tell me what day it is" header
+      $("h2").css("color", "white"); //style the new header with the exercise info
+      //$("p").css("color", "white");
       $("body").css({
         "background-image": "url('img/man-exercising-leg.JPG')",
         "background-repeat": "no-repeat",
@@ -18,9 +18,9 @@ function displayVals() {
         "background-size": "cover"
     });
     } else if(dayValues == "Tuesday") {
-      $( "p" ).html(exercisesArray[1]);
+      $( "p" ).html("<h2>" + exercisesArray[1] + "</h2>"+ "<br>");
+      $("#request-header").remove();
       $("h2").css("color", "white");
-      $("p").css("color", "white");
       $("body").css({
         "background-image": "url('img/man-doing-abs.JPG')",
         "background-repeat": "no-repeat",
@@ -29,9 +29,9 @@ function displayVals() {
         "background-size": "cover"
     });
     } else if(dayValues == "Wednesday") {
-      $( "p" ).html(exercisesArray[2]);
+      $( "p" ).html("<h2>" + exercisesArray[2] + "</h2>"+ "<br>");
+      $("#request-header").remove();
       $("h2").css("color", "white");
-      $("p").css("color", "white");
       $("body").css({
         "background-image": "url('img/man-doing-arms.JPG')",
         "background-repeat": "no-repeat",
@@ -40,9 +40,9 @@ function displayVals() {
         "background-size": "cover"
     });
     } else if(dayValues == "Thursday") {
-      $( "p" ).html(exercisesArray[3]);
+      $( "p" ).html("<h2>" + exercisesArray[3] + "</h2>"+ "<br>");
+      $("#request-header").remove();
       $("h2").css("color", "white");
-      $("p").css("color", "white");
       $("body").css({
         "background-image": "url('img/bird-dog-exercise.JPG')",
         "background-repeat": "no-repeat",
@@ -51,9 +51,9 @@ function displayVals() {
         "background-size": "cover"
     });
     } else if(dayValues == "Friday") {
-      $( "p" ).html(exercisesArray[4]);
+      $( "p" ).html("<h2>" + exercisesArray[4] + "</h2>"+ "<br>");
+      $("#request-header").remove();
       $("h2").css("color", "white");
-      $("p").css("color", "white");
       $("body").css({
         "background-image": "url('img/bench-press.JPG')",
         "background-repeat": "no-repeat",
